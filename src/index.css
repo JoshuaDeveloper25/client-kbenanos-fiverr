@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Product Sans", sans-serif;
+}
+
+@font-face {
+  src: url("../fonts/ProductSans-Black.woff");
+  src: url("../fonts/ProductSans-Bold-1.woff");
+  src: url("../fonts/ProductSans-Bold.woff");
+  src: url("../fonts/ProductSans-Light.woff");
+  src: url("../fonts/ProductSans-Medium-1.woff");
+  src: url("../fonts/ProductSans-Medium.woff");
+  src: url("../fonts/ProductSans-Regular-1.woff");
+  src: url("../fonts/ProductSans-Regular.woff");
+  src: url("../fonts/ProductSans-Thin-1.woff");
+  src: url("../fonts/ProductSans-Thin.woff");
+  font-family: ProductSans;
+}
