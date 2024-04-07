@@ -28,7 +28,7 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-between">
+      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
         {printingCategories?.map((printCategory) => {
           const { image, title, alt, id } = printCategory;
 

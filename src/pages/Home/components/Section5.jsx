@@ -18,7 +18,7 @@ const Section5 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-between">
+      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
         {offersInfographies?.map((offerInfography) => {
           const { image, title, alt, fcfa, id } = offerInfography;
 

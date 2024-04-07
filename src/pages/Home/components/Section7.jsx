@@ -22,7 +22,7 @@ const Section7 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-between">
+      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
         {cvDesign?.map((offerInfography) => {
           const { image, title, alt, fcfa, id } = offerInfography;
 

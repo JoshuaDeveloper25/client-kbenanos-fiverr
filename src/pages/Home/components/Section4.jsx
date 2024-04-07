@@ -18,7 +18,7 @@ const Section4 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-between">
+      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
         {offersPrinting?.map((offerPrinting) => {
           const { image, title, alt, discount, fcfa, id } = offerPrinting;
 

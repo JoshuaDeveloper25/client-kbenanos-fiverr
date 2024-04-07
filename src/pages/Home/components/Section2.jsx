@@ -5,7 +5,7 @@ const Section2 = () => {
     <section className="container mx-auto px-2 py-2">
       <h3 className="font-bold text-lg mb-5">Ça se passe maintenant</h3>
 
-      <div className="flex flex-wrap justify-between items-center gap-7">
+      <div className="flex flex-wrap justify-center sm:justify-between items-center gap-7">
         {happening?.map((happen) => {
           const { image, title, text, textSpan, alt, id } = happen;
 
