@@ -7,10 +7,16 @@ import arrowDownIcon from "../../../../images/arrow-down.png";
 
 const Section7 = () => {
   return (
-    <section className="container mx-auto px-2 py-2">
+    <section className="container mx-auto px-3 py-2">
       <div className="flex items-center gap-2 mb-3">
         <div>
-          <img className="w-5" src={arrowDownIcon} alt="Arrow Down" />
+          <img
+            loading="lazy"
+            decoding="async"
+            className="w-5"
+            src={arrowDownIcon}
+            alt="Arrow Down"
+          />
         </div>
 
         <div>
@@ -29,7 +35,13 @@ const Section7 = () => {
           return (
             <div key={id} className="min-w-[15rem]">
               <div className="max-w-72">
-                <img className="w-full mx-auto" src={image} alt={alt} />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full mx-auto"
+                  src={image}
+                  alt={alt}
+                />
               </div>
               <div>
                 <h3 className="font-medium mt-2">{title}</h3>
@@ -44,7 +56,13 @@ const Section7 = () => {
       <div className="flex justify-between md:justify-start gap-10 my-8">
         <div className="flex items-center gap-5">
           <div>
-            <img className="w-12" src={motoManIcon} alt={"Moto Man Icon"} />
+            <img
+              loading="lazy"
+              decoding="async"
+              className="w-12"
+              src={motoManIcon}
+              alt={"Moto Man Icon"}
+            />
           </div>
 
           <div>
@@ -54,7 +72,13 @@ const Section7 = () => {
 
         <div className="flex items-center gap-5">
           <div>
-            <img className="w-12" src={luggageIcon} alt={"Luggage Icon"} />
+            <img
+              loading="lazy"
+              decoding="async"
+              className="w-12"
+              src={luggageIcon}
+              alt={"Luggage Icon"}
+            />
           </div>
 
           <div>

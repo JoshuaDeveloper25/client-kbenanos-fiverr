@@ -8,12 +8,20 @@ const Navbar = () => {
   return (
     <nav className="container mx-auto flex items-center justify-between px-2 py-2">
       <Link to={"/"}>
-        <img className="w-52" src={logoNavbar} alt="Main Logo" />
+        <img
+          loading="lazy"
+          decoding="async"
+          className="w-52"
+          src={logoNavbar}
+          alt="Main Logo"
+        />
       </Link>
 
       <ul className="flex items-center">
         <li className="me-3">
           <img
+            loading="lazy"
+            decoding="async"
             className="w-7 pe-2 border-r border-gray-300"
             src={magnifyingGlassIcon}
             alt="Magnifying Glass Icon"
@@ -22,6 +30,8 @@ const Navbar = () => {
 
         <li className="me-3">
           <img
+            loading="lazy"
+            decoding="async"
             className="w-7 pe-2 border-r border-gray-300"
             src={notificationsIcon}
             alt="Notifications Icon"
@@ -29,7 +39,13 @@ const Navbar = () => {
         </li>
 
         <li className="me-3">
-          <img className="w-4" src={userIcon} alt="User Icon" />
+          <img
+            loading="lazy"
+            decoding="async"
+            className="w-4"
+            src={userIcon}
+            alt="User Icon"
+          />
         </li>
       </ul>
     </nav>

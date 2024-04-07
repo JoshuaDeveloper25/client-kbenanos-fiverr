@@ -7,10 +7,16 @@ import arrowDownIcon from "../../../../images/arrow-down.png";
 
 const Section4 = () => {
   return (
-    <section className="container mx-auto px-2 py-2">
+    <section className="container mx-auto px-3 py-2">
       <div className="flex items-center gap-2 mb-3">
         <div>
-          <img className="w-5" src={arrowDownIcon} alt="Arrow Down" />
+          <img
+            loading="lazy"
+            decoding="async"
+            className="w-5"
+            src={arrowDownIcon}
+            alt="Arrow Down"
+          />
         </div>
 
         <div>
@@ -28,7 +34,13 @@ const Section4 = () => {
               className="min-w-[12rem] relative rounded-lg shadow-lg border"
             >
               <div className="p-4">
-                <img className="w-40 mx-auto" src={image} alt={alt} />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="w-40 mx-auto"
+                  src={image}
+                  alt={alt}
+                />
               </div>
               <div className="border-t">
                 <h3 className="text-center font-medium mt-2">{title}</h3>
@@ -51,7 +63,13 @@ const Section4 = () => {
       <div className="flex justify-between md:justify-start gap-5 py-4 border-b border-primary-green">
         <div className="flex items-center gap-2">
           <div>
-            <img className="w-5" src={tagIcon} alt={"Tag Icon"} />
+            <img
+              loading="lazy"
+              decoding="async"
+              className="w-5"
+              src={tagIcon}
+              alt={"Tag Icon"}
+            />
           </div>
 
           <div>
@@ -61,7 +79,13 @@ const Section4 = () => {
 
         <div className="flex items-center gap-2">
           <div>
-            <img className="w-5" src={discussionsIcon} alt={"Discussions Icon"} />
+            <img
+              loading="lazy"
+              decoding="async"
+              className="w-5"
+              src={discussionsIcon}
+              alt={"Discussions Icon"}
+            />
           </div>
 
           <div>
