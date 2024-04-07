@@ -287,3 +287,59 @@ export const cvDesign = [
     id: uuidv4(),
   },
 ];
+
+export const similiarProducts = [
+  {
+    image: offreImpremerie1,
+    title: `Tshirt blanc 200g`,
+    alt: `Tshirt blanc 200g`,
+    discount: `-20%`,
+    fcfa: `2500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie2,
+    title: `Polo bleu 200g`,
+    alt: `Polo bleu 200g`,
+    discount: `-20%`,
+    fcfa: `5500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie3,
+    title: `Tshirt blanc 200g`,
+    alt: `Tshirt blanc 200g`,
+    discount: `-20%`,
+    fcfa: `3500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie1,
+    title: `Tshirt blanc 200g`,
+    alt: `Tshirt blanc 200g`,
+    discount: `-20%`,
+    fcfa: `2500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie2,
+    title: `Badge PVC`,
+    alt: `Badge PVC`,
+    discount: `-20%`,
+    fcfa: `1500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie3,
+    title: `Sac tissus XXL`,
+    alt: `Sac tissus XXL`,
+    discount: `-20%`,
+    fcfa: `550 FCFA`,
+    id: uuidv4(),
+  },
+];

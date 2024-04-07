@@ -7,6 +7,7 @@ import "./index.css";
 // Pages Imports
 import Root from "./pages/Root";
 import Home from "./pages/Home/Home";
+import ProductDetail from "./pages/ProductDetail/ProductDetail";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
         index: true,
+      },
+
+      {
+        path: "/product-detail",
+        element: <ProductDetail />,
       },
     ],
   },
