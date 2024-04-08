@@ -10,6 +10,7 @@ import Home from "./pages/Home/Home";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import Connection from "./pages/Connection/Connection";
 import CreateAccount from "./pages/CreateAccount/CreateAccount";
+import Settings from "./pages/Settings/Settings";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
       {
         path: "/create-account",
         element: <CreateAccount />,
+      },
+
+      {
+        path: "/settings",
+        element: <Settings />,
       },
     ],
   },
