@@ -3,7 +3,7 @@ import magnifyingGlassIcon from "../../../../images/magnifying-glass.png";
 
 const Section1 = () => {
   return (
-    <section className="container mx-auto px-3 py-2">
+    <section className="container-page px-3 py-2">
       <div className="flex items-center">
         <div className="me-2">
           <img

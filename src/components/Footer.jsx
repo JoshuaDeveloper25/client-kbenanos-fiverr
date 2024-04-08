@@ -8,7 +8,7 @@ import hamburguerMenuIcon from "../../images/hamburguer-menu.png";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto my-3 px-2">
+    <div className="container-page my-3 px-2">
       <div className="flex items-center justify-between md:gap-9 gap-3">
         <div className="text-center">
           <Link className="text-center text-sm" to={"/"}>

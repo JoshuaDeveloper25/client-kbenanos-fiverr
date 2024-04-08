@@ -5,7 +5,7 @@ import arrowRightIcon from "../../../../images/arrow-right.png";
 
 const Section3 = () => {
   return (
-    <section className="container mx-auto px-3 py-2">
+    <section className="container-page px-3 py-2">
       <div className="flex justify-between mb-3">
         <div className="flex items-center gap-2">
           <div>
@@ -40,12 +40,12 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
+      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
         {printingCategories?.map((printCategory) => {
           const { image, title, alt, id } = printCategory;
 
           return (
-            <div key={id} className="min-w-[7rem]">
+            <div key={id} className="min-w-[1rem]">
               <div className="bg-black rounded-xl p-2">
                 <img
                   loading="lazy"

@@ -6,7 +6,7 @@ import userIcon from "../../images/user.png";
 
 const Navbar = () => {
   return (
-    <nav className="container mx-auto flex items-center justify-between px-2 py-2">
+    <nav className="container-page flex items-center justify-between px-2 py-2">
       <Link to={"/"}>
         <img
           loading="lazy"

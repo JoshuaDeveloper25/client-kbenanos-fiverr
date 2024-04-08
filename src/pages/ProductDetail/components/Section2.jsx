@@ -4,7 +4,7 @@ import arrowDownIcon from "../../../../images/arrow-down.png";
 
 const Section2 = () => {
   return (
-    <section className="container mx-auto px-3 py-2">
+    <section className="container-page px-3 py-2">
       <div className="flex items-center gap-2 mb-3">
         <div>
           <img
@@ -21,7 +21,7 @@ const Section2 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
+      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
         {similiarProducts?.map((offerPrinting) => {
           const { image, title, alt, discount, fcfa, id } = offerPrinting;
 

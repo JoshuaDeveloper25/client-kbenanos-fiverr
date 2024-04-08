@@ -12,10 +12,10 @@ import offreImpremerie1 from "../../../../images/offre-impremerie-1.png";
 
 const Section1 = () => {
   return (
-    <div className="container mx-auto px-3 py-2 mt-8">
+    <div className="container-page relative container px-3 py-2 mt-8">
       <div className="flex flex-col md:flex-row md:gap-8 gap-0">
         {/* Back page icon */}
-        <div>
+        <div className="absolute -top-3">
           <Link className="inline" to={`/`}>
             <img
               loading="lazy"
@@ -196,7 +196,7 @@ const Section1 = () => {
         </article>
 
         {/* More Information Detail */}
-        <article className="flex flex-col justify-around mb-10 gap-8">
+        <article className="lg:flex hidden flex-col justify-around mb-10 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
               <div>
@@ -265,6 +265,58 @@ const Section1 = () => {
           </button>
         </div>
       </div>
+
+      {/* More Information Detail Responsive */}
+      <article className="lg:hidden flex flex-col justify-around my-10 gap-8">
+        <div>
+          <div className="flex items-center gap-2 mb-3">
+            <div>
+              <img
+                loading="lazy"
+                decoding="async"
+                className="w-5"
+                src={arrowDownIcon}
+                alt="Arrow Down"
+              />
+            </div>
+
+            <div>
+              <h3 className="font-bold text-lg">Détails du produit</h3>
+            </div>
+          </div>
+
+          <p className="text-gray-800 mt-3 leading-5 text-sm">
+            Tshirt de marque cotons qualité xxl super max{" "}
+            <span className="lg:block">200G recto verso</span>
+          </p>
+        </div>
+
+        <div>
+          <div className="flex items-center gap-2 mb-3">
+            <div>
+              <img
+                loading="lazy"
+                decoding="async"
+                className="w-5"
+                src={arrowDownIcon}
+                alt="Arrow Down"
+              />
+            </div>
+
+            <div>
+              <h3 className="font-bold text-lg">Livraison</h3>
+            </div>
+          </div>
+
+          <p className="text-gray-800 mt-3 leading-5 text-sm">
+            Nous livrons prés de chez vous á partir de 2000{" "}
+            <span className="lg:block">
+              FCFA Nos livreus sont préts et préts á vous
+            </span>
+            servir.
+          </p>
+        </div>
+      </article>
     </div>
   );
 };

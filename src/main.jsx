@@ -8,6 +8,7 @@ import "./index.css";
 import Root from "./pages/Root";
 import Home from "./pages/Home/Home";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
+import Connection from "./pages/Connection/Connection";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
       {
         path: "/product-detail",
         element: <ProductDetail />,
+      },
+
+      {
+        path: "/connection",
+        element: <Connection />,
       },
     ],
   },

@@ -7,7 +7,7 @@ import arrowDownIcon from "../../../../images/arrow-down.png";
 
 const Section6 = () => {
   return (
-    <section className="container mx-auto px-3 py-2">
+    <section className="container-page px-3 py-2">
       <div className="flex items-center gap-2 mb-3">
         <div>
           <img
@@ -24,12 +24,12 @@ const Section6 = () => {
         </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-center sm:justify-between">
+      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
         {giftIdeas?.map((offerInfography) => {
           const { image, title, alt, fcfa, id } = offerInfography;
 
           return (
-            <div key={id} className="min-w-[15rem]">
+            <div key={id} className="min-w-[5rem]">
               <div className="max-w-72">
                 <img
                   loading="lazy"

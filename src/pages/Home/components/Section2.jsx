@@ -2,7 +2,7 @@ import { happening } from "../../../database/DB.js";
 
 const Section2 = () => {
   return (
-    <section className="container mx-auto px-3 py-2">
+    <section className="container-page px-3 py-2">
       <h3 className="font-bold text-lg mb-5">Ça se passe maintenant</h3>
 
       <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-7">
