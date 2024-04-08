@@ -13,6 +13,7 @@ import CreateAccount from "./pages/CreateAccount/CreateAccount";
 import Settings from "./pages/Settings/Settings";
 import Categories from "./pages/Categories/Categories";
 import DetailCategories from "./pages/DetailCategories/DetailCategories";
+import Discussion from "./pages/Discussion/Discussion";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,11 @@ const router = createBrowserRouter([
       {
         path: "/detail-categories",
         element: <DetailCategories />,
+      },
+
+      {
+        path: "/discussion",
+        element: <Discussion />,
       },
     ],
   },

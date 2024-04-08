@@ -12,7 +12,7 @@ import arrowDownIcon from "../../../../images/arrow-down.png";
 
 const Section1 = () => {
   return (
-    <div className="container-page container px-3 py-2 mt-8">
+    <div className="container-page px-3 py-2 mt-8">
       <div className="max-w-xl md:mx-auto mx-0 mb-10">
         {/* Back page icon */}
         <div className="flex items-center gap-3">

@@ -10,7 +10,7 @@ import signOutIcon from "../../../../images/sign-out.png";
 const Section2 = () => {
   return (
     <>
-      <div className="container-page container px-3 py-2 mt-2">
+      <div className="container-page px-3 py-2 mt-2">
         <div className="max-w-2xl md:mx-auto mx-0 mb-5">
           <div className="flex items-center gap-3">
             <img
