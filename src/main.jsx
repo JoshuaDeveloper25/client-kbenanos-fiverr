@@ -11,6 +11,7 @@ import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import Connection from "./pages/Connection/Connection";
 import CreateAccount from "./pages/CreateAccount/CreateAccount";
 import Settings from "./pages/Settings/Settings";
+import Categories from "./pages/Categories/Categories";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
       {
         path: "/settings",
         element: <Settings />,
+      },
+
+      {
+        path: "/categories",
+        element: <Categories />,
       },
     ],
   },
