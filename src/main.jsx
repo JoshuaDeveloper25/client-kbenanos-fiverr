@@ -9,6 +9,7 @@ import Root from "./pages/Root";
 import Home from "./pages/Home/Home";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import Connection from "./pages/Connection/Connection";
+import CreateAccount from "./pages/CreateAccount/CreateAccount";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: "/connection",
         element: <Connection />,
+      },
+
+      {
+        path: "/create-account",
+        element: <CreateAccount />,
       },
     ],
   },
