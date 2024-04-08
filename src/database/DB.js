@@ -343,3 +343,126 @@ export const similiarProducts = [
     id: uuidv4(),
   },
 ];
+
+export const textileCategories = [
+  {
+    image: category1,
+    title: `T-shirt`,
+    alt: `T-shirt`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category2,
+    title: `Polo`,
+    alt: `Polo`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category3,
+    title: `Chemise`,
+    alt: `Chemise`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category4,
+    title: `Casquette`,
+    alt: `Casquette`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category5,
+    title: `Gilet de sécurité`,
+    alt: `Gilet de sécurité`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category6,
+    title: `Blouson`,
+    alt: `Blouson`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category5,
+    title: `Combinaison`,
+    alt: `Combinaison`,
+    id: uuidv4(),
+    bgBox: "#007523",
+  },
+
+  {
+    image: category6,
+    title: `Foulard`,
+    alt: `Foulard`,
+    id: uuidv4(),
+    bgBox: "#000000",
+  },
+];
+
+export const generalOffers = [
+  {
+    image: offreImpremerie1,
+    title: `Tshirt blanc 200g`,
+    alt: `Tshirt blanc 200g`,
+    discount: `-20%`,
+    fcfa: `2500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie2,
+    title: `Polo bleu 200g`,
+    alt: `Polo bleu 200g`,
+    discount: `-20%`,
+    fcfa: `5500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie3,
+    title: `Tshirt blanc 200g`,
+    alt: `Tshirt blanc 200g`,
+    discount: `-20%`,
+    fcfa: `3500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie1,
+    title: `Tshirt blanc 200g`,
+    alt: `Tshirt blanc 200g`,
+    discount: `-20%`,
+    fcfa: `2500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie2,
+    title: `Badge PVC`,
+    alt: `Badge PVC`,
+    discount: `-20%`,
+    fcfa: `1500 FCFA`,
+    id: uuidv4(),
+  },
+
+  {
+    image: offreImpremerie3,
+    title: `Sac tissus XXL`,
+    alt: `Sac tissus XXL`,
+    discount: `-20%`,
+    fcfa: `550 FCFA`,
+    id: uuidv4(),
+  },
+];
+

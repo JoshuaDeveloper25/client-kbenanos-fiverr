@@ -25,3 +25,19 @@ body {
     @apply mx-auto max-w-[1200px];
   }
 }
+
+/* Carousel from Detail Categories Page */
+.slick-dots {
+  bottom: 1rem !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fcab16 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: .8;
+}
