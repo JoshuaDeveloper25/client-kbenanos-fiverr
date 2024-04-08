@@ -28,9 +28,18 @@ const Section2 = () => {
 
         <article className="max-w-xl mx-auto mb-4">
           <div className="bg-primary-green/15 rounded">
-            <button type="button" className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
+            <button
+              type="button"
+              className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300"
+            >
               <div>
-                <img className="w-7" src={telephoneIcon} alt="Telephone Icon" />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="w-7"
+                  src={telephoneIcon}
+                  alt="Telephone Icon"
+                />
               </div>
 
               <div>
@@ -38,9 +47,14 @@ const Section2 = () => {
               </div>
             </button>
 
-            <button type="button" className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
+            <button
+              type="button"
+              className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300"
+            >
               <div>
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="w-7"
                   src={notificationsIcon}
                   alt="Sheet Time Icon"
@@ -52,9 +66,18 @@ const Section2 = () => {
               </div>
             </button>
 
-            <button type="button" className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
+            <button
+              type="button"
+              className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300"
+            >
               <div>
-                <img className="w-7" src={shareIcon} alt="Share Icon" />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="w-7"
+                  src={shareIcon}
+                  alt="Share Icon"
+                />
               </div>
 
               <div>
@@ -62,9 +85,14 @@ const Section2 = () => {
               </div>
             </button>
 
-            <button type="button" className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
+            <button
+              type="button"
+              className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300"
+            >
               <div>
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="w-7"
                   src={sheetsLetterIcon}
                   alt="Sheets with Letters Icon"
@@ -76,9 +104,14 @@ const Section2 = () => {
               </div>
             </button>
 
-            <button type="button" className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
+            <button
+              type="button"
+              className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300"
+            >
               <div>
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="w-7"
                   src={lockBadgeIcon}
                   alt="Lock with Badge Icon"
@@ -90,9 +123,18 @@ const Section2 = () => {
               </div>
             </button>
 
-            <button type="button" className="py-2 px-3 w-full flex gap-4 items-center">
+            <button
+              type="button"
+              className="py-2 px-3 w-full flex gap-4 items-center"
+            >
               <div>
-                <img className="w-7" src={signOutIcon} alt="Sign Out Icon" />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="w-7"
+                  src={signOutIcon}
+                  alt="Sign Out Icon"
+                />
               </div>
 
               <div>

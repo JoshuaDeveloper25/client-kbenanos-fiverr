@@ -33,9 +33,9 @@ const Section1 = () => {
         <div className="flex items-center gap-4 mb-6">
           <div>
             <img
-              className="w-20"
               loading="lazy"
               decoding="async"
+              className="w-20"
               src={carlProfile}
             />
           </div>
@@ -51,6 +51,8 @@ const Section1 = () => {
           <button className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
             <div>
               <img
+                loading="lazy"
+                decoding="async"
                 className="w-7"
                 src={informationIcon}
                 alt="Information Icon"
@@ -64,7 +66,13 @@ const Section1 = () => {
 
           <button className="py-2 px-3 w-full flex gap-4 items-center border-b border-gray-300">
             <div>
-              <img className="w-7" src={sheetTimeIcon} alt="Sheet Time Icon" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="w-7"
+                src={sheetTimeIcon}
+                alt="Sheet Time Icon"
+              />
             </div>
 
             <div>
@@ -75,6 +83,8 @@ const Section1 = () => {
           <button className="py-2 px-3 w-full flex gap-4 items-center">
             <div>
               <img
+                loading="lazy"
+                decoding="async"
                 className="w-7"
                 src={cartSettingsIcon}
                 alt="Cart Settings Icon"
