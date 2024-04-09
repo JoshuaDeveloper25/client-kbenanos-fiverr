@@ -46,6 +46,8 @@ const FinishingOrder = () => {
             <div className="flex gap-4 mt-2 mb-4">
               <div>
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="w-24 border border-primary-green p-2 rounded-lg"
                   src={offreImpremerie1}
                   alt="Shirt"
@@ -92,7 +94,13 @@ const FinishingOrder = () => {
                   </div>
 
                   <div className=" border-l border-gray-500/70 flex items-center ps-5">
-                    <img className="w-5" src={trashRed} alt="Trash Red" />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      className="w-5"
+                      src={trashRed}
+                      alt="Trash Red"
+                    />
                   </div>
                 </div>
               </div>
@@ -130,7 +138,13 @@ const FinishingOrder = () => {
               </div>
 
               <div className=" border-l border-gray-500/70 flex items-center ps-5">
-                <img className="w-5" src={trashRed} alt="Trash Red" />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="w-5"
+                  src={trashRed}
+                  alt="Trash Red"
+                />
               </div>
             </div>
 
@@ -173,6 +187,8 @@ const FinishingOrder = () => {
                   <div className="flex gap-3 border border-primary-green rounded px-1 py-2">
                     <div className="flex items-center ">
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="lg:w-7 w-4"
                         src={verificationGreen}
                         alt="Verification Green"
@@ -182,6 +198,8 @@ const FinishingOrder = () => {
                     <div className="flex items-center gap-3">
                       <div>
                         <img
+                          loading="lazy"
+                          decoding="async"
                           className="lg:w-24 w-14"
                           src={artielMoney}
                           alt="Artiel Money"
@@ -198,6 +216,8 @@ const FinishingOrder = () => {
                     <div className="flex items-center gap-3">
                       <div>
                         <img
+                          loading="lazy"
+                          decoding="async"
                           className="lg:w-24 w-14"
                           src={moovMoney}
                           alt="Moov Money"
@@ -220,6 +240,8 @@ const FinishingOrder = () => {
                   <div className="flex gap-3 border border-primary-green rounded px-1 py-2">
                     <div className="flex items-center">
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="lg:w-7 w-4"
                         src={verificationGray}
                         alt="Verification Gray"
@@ -229,6 +251,8 @@ const FinishingOrder = () => {
                     <div className="flex items-center gap-3">
                       <div>
                         <img
+                          loading="lazy"
+                          decoding="async"
                           className="lg:w-24 w-14"
                           src={moneyHand}
                           alt="Money Hand"
@@ -247,6 +271,8 @@ const FinishingOrder = () => {
                   <div className="flex gap-3 border border-primary-green rounded px-1 py-2">
                     <div className="flex items-center ">
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="lg:w-7 w-4"
                         src={verificationGray}
                         alt="Verification Gray"
@@ -256,6 +282,8 @@ const FinishingOrder = () => {
                     <div className="flex items-center gap-3">
                       <div>
                         <img
+                          loading="lazy"
+                          decoding="async"
                           className="lg:w-24 w-14"
                           src={cardBank}
                           alt="Card Bank Icon"
@@ -281,6 +309,8 @@ const FinishingOrder = () => {
                   <div className="flex gap-3 border border-primary-green rounded px-1 py-2">
                     <div className="flex items-center ">
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="lg:w-7 w-4"
                         src={verificationGray}
                         alt="Verification Gray"
@@ -290,6 +320,8 @@ const FinishingOrder = () => {
                     <div className="flex items-center gap-3">
                       <div>
                         <img
+                          loading="lazy"
+                          decoding="async"
                           className="lg:w-24 w-14"
                           src={visa}
                           alt="Visa Logo"
@@ -319,6 +351,8 @@ const FinishingOrder = () => {
 
               <button className="flex-[10%] bg-red-600 py-2 rounded">
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="w-4 mx-auto"
                   src={trashWhite}
                   alt="Trash White Icon"
@@ -394,7 +428,13 @@ const FinishingOrder = () => {
 
               <div className="flex items-center gap-3 mt-3">
                 <div>
-                  <img className="w-16" src={carlProfile} alt="Carl Profile" />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    className="w-16"
+                    src={carlProfile}
+                    alt="Carl Profile"
+                  />
                 </div>
 
                 <div>
@@ -425,6 +465,8 @@ const FinishingOrder = () => {
 
               <button className="flex-[10%] bg-red-600 py-2 rounded">
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="w-4 mx-auto"
                   src={trashWhite}
                   alt="Trash White Icon"

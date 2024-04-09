@@ -31,15 +31,33 @@ const Carousel = ({
   return (
     <Slider {...settings}>
       <div>
-        <img className="w-full" src={imageOne} alt={altOne} />
+        <img
+          loading="lazy"
+          decoding="async"
+          className="w-full"
+          src={imageOne}
+          alt={altOne}
+        />
       </div>
 
       <div>
-        <img className="w-full" src={imageTwo} alt={altTwo} />
+        <img
+          loading="lazy"
+          decoding="async"
+          className="w-full"
+          src={imageTwo}
+          alt={altTwo}
+        />
       </div>
 
       <div>
-        <img className="w-full" src={imageThree} alt={altThree} />
+        <img
+          loading="lazy"
+          decoding="async"
+          className="w-full"
+          src={imageThree}
+          alt={altThree}
+        />
       </div>
     </Slider>
   );
