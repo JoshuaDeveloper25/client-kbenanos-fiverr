@@ -14,6 +14,7 @@ import Settings from "./pages/Settings/Settings";
 import Categories from "./pages/Categories/Categories";
 import DetailCategories from "./pages/DetailCategories/DetailCategories";
 import Discussion from "./pages/Discussion/Discussion";
+import OrderCompletion from "./pages/OrderCompletion/OrderCompletion";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,11 @@ const router = createBrowserRouter([
       {
         path: "/discussion",
         element: <Discussion />,
+      },
+
+      {
+        path: "/order-completion",
+        element: <OrderCompletion />,
       },
     ],
   },
