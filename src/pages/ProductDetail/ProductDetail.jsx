@@ -1,14 +1,14 @@
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
+import ProductInformation from "./components/ProductInformation";
+import SimilarProduct from "./components/SimilarProduct";
 
 const ProductDetail = () => {
   return (
     <>
       {/* Produit detail */}
-      <Section1 />
+      <ProductInformation />
 
       {/* Produit similaire */}
-      <Section2 />
+      <SimilarProduct />
     </>
   );
 };

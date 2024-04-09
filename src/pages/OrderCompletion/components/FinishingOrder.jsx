@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaMinus, FaPlus } from "react-icons/fa";
 
-const Section1 = () => {
+const FinishingOrder = () => {
   return (
     <>
       <section className="container-page container px-3 py-2 mt-4">
@@ -37,7 +37,7 @@ const Section1 = () => {
         </div>
 
         <div className="flex justify-center flex-col md:flex-row items-start md:gap-12 gap-0">
-          <article className="bg-white p-3 rounded-md flex-[65%]">
+          <article className="bg-white p-3 rounded-md md:mb-0 mb-4 flex-[65%] mx-auto">
             {/* 1 */}
             <h3 className="font-bold pb-2 pt-3 text-primary-green text-lg border-b border-gray-300/50">
               1. Votre commande
@@ -327,7 +327,7 @@ const Section1 = () => {
             </div>
           </article>
 
-          <article className="bg-white p-3 rounded-md flex-[35%]">
+          <article className="bg-white p-3 rounded-md flex-[35%] mx-auto">
             <h3 className="font-bold pb-2 pt-3 text-primary-green text-lg border-b border-gray-300/50">
               Résumé facturation
             </h3>
@@ -438,4 +438,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default FinishingOrder;

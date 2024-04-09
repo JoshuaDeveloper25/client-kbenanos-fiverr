@@ -7,7 +7,7 @@ import sheetsLetterIcon from "../../../../images/sheets-letter.png";
 import lockBadgeIcon from "../../../../images/lock-badge.png";
 import signOutIcon from "../../../../images/sign-out.png";
 
-const Section2 = () => {
+const SettingsDoncreati = () => {
   return (
     <>
       <div className="container-page px-3 py-2 mt-2">
@@ -148,4 +148,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default SettingsDoncreati;

@@ -8,7 +8,7 @@ import cartSettingsIcon from "../../../../images/cart-settings.png";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 
-const Section1 = () => {
+const DoncreatiAccount = () => {
   return (
     <div className="container-page px-3 py-2 mt-8">
       <div className="max-w-2xl md:mx-auto mx-0 mb-5">
@@ -101,4 +101,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default DoncreatiAccount;

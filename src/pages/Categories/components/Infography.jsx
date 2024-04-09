@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 
-const Section4 = () => {
+const Infography = () => {
   return (
     <section className="container-page px-3 py-2">
       {/* Back page icon */}
@@ -18,11 +18,11 @@ const Section4 = () => {
           />
         </Link>
         <div>
-          <h3 className="font-bold">Idées Cadeau</h3>
+          <h3 className="font-bold">Infographie</h3>
         </div>
       </div>
 
-      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
+      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
         {printingCategories?.map((printCategory) => {
           const { image, title, alt, id } = printCategory;
 
@@ -46,4 +46,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default Infography;

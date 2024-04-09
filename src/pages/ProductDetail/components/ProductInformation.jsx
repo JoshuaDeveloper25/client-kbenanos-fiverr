@@ -10,7 +10,7 @@ import whatsappIcon from "../../../../images/whatsapp.png";
 
 import offreImpremerie1 from "../../../../images/offre-impremerie-1.png";
 
-const Section1 = () => {
+const ProductInformation = () => {
   return (
     <div className="container-page relative container px-3 py-2 mt-8">
       <div className="flex flex-col md:flex-row md:gap-8 gap-0">
@@ -321,4 +321,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default ProductInformation;

@@ -1,11 +1,28 @@
-import { happening } from "../../../database/DB.js";
+import { Link } from "react-router-dom";
+import { happening } from "../../../database/DB";
 
-const Section2 = () => {
+import arrowDownIcon from "../../../../images/arrow-down.png";
+
+const OurCategories = () => {
   return (
     <section className="container-page px-3 py-2">
-      <h3 className="font-bold text-lg mb-5">Ça se passe maintenant</h3>
+      {/* Back page icon */}
+      <div className="flex items-center gap-3 mb-6">
+        <Link to={`/`}>
+          <img
+            loading="lazy"
+            decoding="async"
+            className="w-5 rotate-90"
+            src={arrowDownIcon}
+            alt="Arrow Down"
+          />
+        </Link>
+        <div>
+          <h3 className="font-bold">Nos Catégories</h3>
+        </div>
+      </div>
 
-      <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-7">
+      <div className="flex flex-col sm:flex-row flex-wrap lg:justify-between justify-center gap-7">
         {happening?.map((happen) => {
           const { image, title, text, textSpan, alt, id } = happen;
 
@@ -37,4 +54,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default OurCategories;

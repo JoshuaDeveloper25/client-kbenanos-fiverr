@@ -1,26 +1,26 @@
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
+import OurCategories from "./components/OurCategories";
+import PrintCategories from "./components/PrintCategories";
+import Infography from "./components/Infography";
+import GiftIdeas from "./components/GiftIdeas";
+import CVDesign from "./components/CVDesign";
 
 const Categories = () => {
   return (
     <>
       {/* Nos Cátegories */}
-      <Section1 />
+      <OurCategories />
 
       {/* Catégories imprimerie */}
-      <Section2 />
+      <PrintCategories />
 
       {/* Infographie */}
-      <Section3 />
+      <Infography />
 
       {/* Idées Cadeau */}
-      <Section4 />
+      <GiftIdeas />
 
       {/* CV - design */}
-      <Section5 />
+      <CVDesign />
     </>
   );
 };

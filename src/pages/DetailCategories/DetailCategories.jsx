@@ -1,9 +1,9 @@
 import CarouselTextil from "./components/CarouselTextil";
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
+import TextileCategories from "./components/TextileCategories";
+import TshirtCategory from "./components/TshirtCategory";
+import PoloCategory from "./components/PoloCategory";
+import ChemiseCategory from "./components/ChemiseCategory";
+import ChemiseCategory2 from "./components/ChemiseCategory2";
 
 const DetailCategories = () => {
   return (
@@ -12,19 +12,19 @@ const DetailCategories = () => {
       <CarouselTextil />
 
       {/* Catégories Textille */}
-      <Section1 />
+      <TextileCategories />
 
       {/* Tshirt */}
-      <Section2 />
+      <TshirtCategory />
 
       {/* Polo */}
-      <Section3 />
+      <PoloCategory />
 
       {/* Chemise */}
-      <Section4 />
+      <ChemiseCategory />
 
       {/* Chemise */}
-      <Section5 />
+      <ChemiseCategory2 />
     </>
   );
 };

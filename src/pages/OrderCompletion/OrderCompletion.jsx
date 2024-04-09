@@ -1,10 +1,10 @@
-import Section1 from "./components/Section1";
+import FinishingOrder from "./components/FinishingOrder";
 
 const OrderCompletion = () => {
   return (
     <>
       {/* Finalisation de la commande */}
-      <Section1 />
+      <FinishingOrder />
     </>
   );
 };

@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <Link className="text-center text-sm" to={"/"}>
+          <Link className="text-center text-sm" to={"/categories"}>
             <img
               loading="lazy"
               decoding="async"
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <Link className="text-center text-sm" to={"/"}>
+          <Link className="text-center text-sm" to={"/discussion"}>
             <img
               loading="lazy"
               decoding="async"
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <Link className="text-center text-sm" to={"/"}>
+          <Link className="text-center text-sm" to={"/order-completion"}>
             <img
               loading="lazy"
               decoding="async"
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <Link className="text-center text-sm" to={"/"}>
+          <Link className="text-center text-sm" to={"/settings"}>
             <img
               loading="lazy"
               decoding="async"

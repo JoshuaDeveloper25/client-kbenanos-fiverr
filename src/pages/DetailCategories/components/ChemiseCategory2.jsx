@@ -1,11 +1,11 @@
-import { offersPrinting } from "../../../database/DB";
+import { generalOffers } from "../../../database/DB";
 
 import tagIcon from "../../../../images/tag.png";
 import discussionsIcon from "../../../../images/discussions-2.png";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 
-const Section4 = () => {
+const ChemiseCategory2 = () => {
   return (
     <section className="container-page px-3 py-2">
       <div className="flex items-center gap-2 mb-3">
@@ -20,13 +20,13 @@ const Section4 = () => {
         </div>
 
         <div>
-          <h3 className="font-bold text-lg">Offre Impremerie</h3>
+          <h3 className="font-bold text-lg">Chemise</h3>
         </div>
       </div>
 
-      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
-        {offersPrinting?.map((offerPrinting) => {
-          const { image, title, alt, discount, fcfa, id } = offerPrinting;
+      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
+        {generalOffers?.map((generalOffer) => {
+          const { image, title, alt, discount, fcfa, id } = generalOffer;
 
           return (
             <div
@@ -97,4 +97,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default ChemiseCategory2;

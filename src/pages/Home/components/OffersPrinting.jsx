@@ -1,8 +1,11 @@
-import { similiarProducts } from "../../../database/DB";
+import { offersPrinting } from "../../../database/DB";
+
+import tagIcon from "../../../../images/tag.png";
+import discussionsIcon from "../../../../images/discussions-2.png";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 
-const Section2 = () => {
+const OffersPrinting = () => {
   return (
     <section className="container-page px-3 py-2">
       <div className="flex items-center gap-2 mb-3">
@@ -17,18 +20,18 @@ const Section2 = () => {
         </div>
 
         <div>
-          <h3 className="font-bold text-lg">Produit similaire</h3>
+          <h3 className="font-bold text-lg">Offre Impremerie</h3>
         </div>
       </div>
 
-      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
-        {similiarProducts?.map((offerPrinting) => {
+      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
+        {offersPrinting?.map((offerPrinting) => {
           const { image, title, alt, discount, fcfa, id } = offerPrinting;
 
           return (
             <div
               key={id}
-              className="min-w-[12rem] relative rounded-lg shadow-lg border"
+              className="min-w-[5rem] relative rounded-lg shadow-lg border"
             >
               <div className="p-4">
                 <img
@@ -56,8 +59,42 @@ const Section2 = () => {
           );
         })}
       </div>
+
+      <div className="flex justify-between md:justify-start gap-5 py-4 border-b border-primary-green">
+        <div className="flex items-center gap-2">
+          <div>
+            <img
+              loading="lazy"
+              decoding="async"
+              className="w-5"
+              src={tagIcon}
+              alt={"Tag Icon"}
+            />
+          </div>
+
+          <div>
+            <h3>Tous les offres imprimerie</h3>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <div>
+            <img
+              loading="lazy"
+              decoding="async"
+              className="w-5"
+              src={discussionsIcon}
+              alt={"Discussions Icon"}
+            />
+          </div>
+
+          <div>
+            <h3>Discuter avec nous</h3>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
 
-export default Section2;
+export default OffersPrinting;

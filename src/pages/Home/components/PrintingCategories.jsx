@@ -1,9 +1,10 @@
 import { printingCategories } from "../../../database/DB";
+import { Link } from "react-router-dom";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 import arrowRightIcon from "../../../../images/arrow-right.png";
 
-const Section3 = () => {
+const PrintingCategories = () => {
   return (
     <section className="container-page px-3 py-2">
       <div className="flex justify-between mb-3">
@@ -23,24 +24,26 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
-          <div>
-            <h3 className="text-lg">Toutes les catégories</h3>
-          </div>
+        <Link to={`/categories`}>
+          <div className="flex items-center gap-2">
+            <div>
+              <h3 className="text-lg">Toutes les catégories</h3>
+            </div>
 
-          <div>
-            <img
-              loading="lazy"
-              decoding="async"
-              className="w-5"
-              src={arrowRightIcon}
-              alt="Arrow Right"
-            />
+            <div>
+              <img
+                loading="lazy"
+                decoding="async"
+                className="w-5"
+                src={arrowRightIcon}
+                alt="Arrow Right"
+              />
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
 
-      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
+      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
         {printingCategories?.map((printCategory) => {
           const { image, title, alt, id } = printCategory;
 
@@ -64,4 +67,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default PrintingCategories;

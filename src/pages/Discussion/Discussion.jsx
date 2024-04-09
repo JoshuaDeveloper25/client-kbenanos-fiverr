@@ -1,9 +1,9 @@
-import Section1 from "./components/Section1";
+import ChatBoxDiscussion from "./components/ChatBoxDiscussion";
 
 const Discussion = () => {
   return (
     <>
-      <Section1 />
+      <ChatBoxDiscussion />
     </>
   );
 };

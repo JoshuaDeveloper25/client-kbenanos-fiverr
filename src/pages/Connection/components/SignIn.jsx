@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 
-const Section1 = () => {
+const SignIn = () => {
   return (
     <div className="container-page px-3 py-2 mt-8">
       <div className="max-w-xl md:mx-auto mx-0 mb-10">
@@ -87,4 +87,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default SignIn;

@@ -1,33 +1,34 @@
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
-import Section6 from "./components/Section6";
-import Section7 from "./components/Section7";
+import Header from "./components/Header";
+import HappeningNow from "./components/HappeningNow";
+import PrintingCategories from "./components/PrintingCategories";
+import OffersPrinting from "./components/OffersPrinting";
+import InfographicOffer from "./components/InfographicOffer";
+import GiftIdeas from "./components/GiftIdeas";
+import CVDesign from "./components/CVDesign";
 
 const Home = () => {
   return (
     <>
-      <Section1 />
+      {/* Header */}
+      <Header />
 
       {/* Ça se passe maintenant */}
-      <Section2 />
+      <HappeningNow />
 
       {/* Catégories imprimerie */}
-      <Section3 />
+      <PrintingCategories />
 
       {/* Offre Impremerie */}
-      <Section4 />
+      <OffersPrinting />
 
       {/* Offre Infographie */}
-      <Section5 />
+      <InfographicOffer />
 
       {/* Idées cadeaux */}
-      <Section6 />
+      <GiftIdeas />
 
       {/* CV - design */}
-      <Section7 />
+      <CVDesign />
     </>
   );
 };

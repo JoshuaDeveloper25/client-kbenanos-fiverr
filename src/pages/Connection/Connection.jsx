@@ -1,10 +1,10 @@
-import Section1 from "./components/Section1";
+import SignIn from "./components/SignIn";
 
 const Connection = () => {
   return (
     <>
       {/* Connexion */}
-      <Section1 />
+      <SignIn />
     </>
   );
 };

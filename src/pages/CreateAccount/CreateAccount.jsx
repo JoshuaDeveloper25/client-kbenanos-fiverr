@@ -1,10 +1,10 @@
-import Section1 from "./components/Section1";
+import SignUp from "./components/SignUp";
 
 const CreateAccount = () => {
   return (
     <>
       {/* Créer un compte */}
-      <Section1 />
+      <SignUp />
     </>
   );
 };

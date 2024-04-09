@@ -1,9 +1,9 @@
-import { printingCategories } from "../../../database/DB";
+import { textileCategories } from "../../../database/DB";
 import { Link } from "react-router-dom";
 
 import arrowDownIcon from "../../../../images/arrow-down.png";
 
-const Section3 = () => {
+const TextileCategories = () => {
   return (
     <section className="container-page px-3 py-2">
       {/* Back page icon */}
@@ -18,17 +18,20 @@ const Section3 = () => {
           />
         </Link>
         <div>
-          <h3 className="font-bold">Infographie</h3>
+          <h3 className="font-bold">Catégories Textille</h3>
         </div>
       </div>
 
-      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
-        {printingCategories?.map((printCategory) => {
-          const { image, title, alt, id } = printCategory;
+      <div className="flex row-gap-3 gap-3 min-[1125px]:justify-between justify-center">
+        {textileCategories?.map((printCategory) => {
+          const { image, title, alt, id, bgBox } = printCategory;
 
           return (
             <div key={id} className="min-w-[1rem]">
-              <div className="bg-black rounded-xl p-2">
+              <div
+                className="rounded-xl p-2"
+                style={{ background: `${bgBox}` }}
+              >
                 <img
                   loading="lazy"
                   decoding="async"
@@ -46,4 +49,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default TextileCategories;

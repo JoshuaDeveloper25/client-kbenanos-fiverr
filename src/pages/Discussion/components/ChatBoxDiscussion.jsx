@@ -7,7 +7,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { IoFolderOutline } from "react-icons/io5";
 import { LuUserSquare } from "react-icons/lu";
 
-const Section1 = () => {
+const ChatBoxDiscussion = () => {
   return (
     <>
       <section className="container-page px-3 py-2 mt-5">
@@ -113,4 +113,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default ChatBoxDiscussion;

@@ -28,7 +28,7 @@ const Section7 = () => {
         </div>
       </div>
 
-      <div className="flex lg:gap-0 gap-3 flex-wrap justify-center lg:justify-between">
+      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
         {cvDesign?.map((offerInfography) => {
           const { image, title, alt, fcfa, id } = offerInfography;
 

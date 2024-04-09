@@ -1,7 +1,7 @@
 import primaryHomeImage from "../../../../images/primary-home-image.png";
 import magnifyingGlassIcon from "../../../../images/magnifying-glass.png";
 
-const Section1 = () => {
+const Header = () => {
   return (
     <section className="container-page px-3 py-2">
       <div className="flex items-center">
@@ -33,4 +33,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Header;
