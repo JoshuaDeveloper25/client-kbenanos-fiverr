@@ -22,7 +22,7 @@ body {
 
 @layer components {
   .container-page {
-    @apply mx-auto max-w-[1400px];
+    @apply mx-auto max-w-[1200px];
   }
 }
 

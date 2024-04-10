@@ -30,7 +30,7 @@ const GiftIdeas = () => {
 
           return (
             <div key={id} className="min-w-[5rem]">
-              <div className="max-w-72">
+              <div className="max-w-64">
                 <img
                   loading="lazy"
                   decoding="async"

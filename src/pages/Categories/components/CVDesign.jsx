@@ -32,7 +32,7 @@ const CVDesign = () => {
                 <img
                   loading="lazy"
                   decoding="async"
-                  className="w-32"
+                  className="w-28"
                   src={image}
                   alt={alt}
                 />

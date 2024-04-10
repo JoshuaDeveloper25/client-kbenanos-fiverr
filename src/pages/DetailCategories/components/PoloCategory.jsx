@@ -31,7 +31,7 @@ const PoloCategory = () => {
           return (
             <div
               key={id}
-              className="min-w-[5rem] relative rounded-lg shadow-lg border"
+              className="max-w-[11rem] relative rounded-lg shadow-lg border"
             >
               <div className="p-4">
                 <img

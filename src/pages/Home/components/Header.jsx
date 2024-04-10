@@ -5,7 +5,7 @@ import Carousel from "../../../components/Carousel";
 const Header = () => {
   return (
     <section className="container-page px-3 py-2">
-      <div className="flex items-center">
+      <div className="flex items-center w-full bg-white px-1 py-2 rounded">
         <div className="me-2">
           <img
             loading="lazy"
@@ -16,9 +16,9 @@ const Header = () => {
           />
         </div>
 
-        <div>
+        <div className="w-full">
           <input
-            className="font-bold placeholder-black outline-none"
+            className=" placeholder-black outline-none w-full"
             placeholder="Chercher un produit, ou catégorie"
           />
         </div>

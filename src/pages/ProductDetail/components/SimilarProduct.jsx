@@ -28,7 +28,7 @@ const SimilarProduct = () => {
           return (
             <div
               key={id}
-              className="min-w-[12rem] relative rounded-lg shadow-lg border"
+              className="max-w-[11rem] relative rounded-lg shadow-lg border"
             >
               <div className="p-4">
                 <img
