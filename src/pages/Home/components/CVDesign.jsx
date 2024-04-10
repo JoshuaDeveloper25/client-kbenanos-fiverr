@@ -28,7 +28,7 @@ const Section7 = () => {
         </div>
       </div>
 
-      <div className="grid place-content-center lg:grid-rows-1 grid-rows-2 grid-flow-col gap-4">
+      <div className="grid place-items-center lg:place-items-start lg:grid-rows-1 grid-rows-2 grid-flow-col gap-4">
         {cvDesign?.map((offerInfography) => {
           const { image, title, alt, fcfa, id } = offerInfography;
 
