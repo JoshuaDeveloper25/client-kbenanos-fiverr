@@ -17,7 +17,10 @@ const Header = () => {
         </div>
 
         <div>
-          <h3 className="font-bold">Chercher un produit, ou catégorie</h3>
+          <input
+            className="font-bold placeholder-black outline-none"
+            placeholder="Chercher un produit, ou catégorie"
+          />
         </div>
       </div>
 
