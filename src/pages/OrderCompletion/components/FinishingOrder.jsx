@@ -200,7 +200,7 @@ const FinishingOrder = () => {
                         <img
                           loading="lazy"
                           decoding="async"
-                          className="lg:w-24 w-14"
+                          className="lg:w-24 h-10 w-14 object-contain"
                           src={artielMoney}
                           alt="Artiel Money"
                         />
@@ -218,7 +218,7 @@ const FinishingOrder = () => {
                         <img
                           loading="lazy"
                           decoding="async"
-                          className="lg:w-24 w-14"
+                          className="lg:w-24 h-10 w-14 object-contain"
                           src={moovMoney}
                           alt="Moov Money"
                         />
@@ -253,7 +253,7 @@ const FinishingOrder = () => {
                         <img
                           loading="lazy"
                           decoding="async"
-                          className="lg:w-24 w-14"
+                          className="lg:w-24 h-10 w-14 object-contain"
                           src={moneyHand}
                           alt="Money Hand"
                         />
@@ -268,7 +268,7 @@ const FinishingOrder = () => {
                 <div className="my-3 md:flex-[40%] flex-auto">
                   <h2 className="font-bold mb-2 text-sm">Virement ou chéque</h2>
 
-                  <div className="flex gap-3 border border-primary-green rounded px-1 py-2">
+                  <div className="flex gap-3 border border-primary-green rounded px-1 py-2 h-[3.6rem]">
                     <div className="flex items-center ">
                       <img
                         loading="lazy"
@@ -284,7 +284,7 @@ const FinishingOrder = () => {
                         <img
                           loading="lazy"
                           decoding="async"
-                          className="lg:w-24 w-14"
+                          className="lg:w-24 h-10 w-14 object-contain"
                           src={cardBank}
                           alt="Card Bank Icon"
                         />
@@ -306,7 +306,7 @@ const FinishingOrder = () => {
                 <div className="my-3 md:flex-1 flex-auto">
                   <h2 className="font-bold mb-2 text-sm">Carte Visa</h2>
 
-                  <div className="flex gap-3 border border-primary-green rounded px-1 py-2">
+                  <div className="flex gap-3 border border-primary-green rounded px-1 py-2 h-14">
                     <div className="flex items-center ">
                       <img
                         loading="lazy"
@@ -322,7 +322,7 @@ const FinishingOrder = () => {
                         <img
                           loading="lazy"
                           decoding="async"
-                          className="lg:w-24 w-14"
+                          className="lg:w-20 object-contain lg:h-10 h-auto w-14"
                           src={visa}
                           alt="Visa Logo"
                         />
