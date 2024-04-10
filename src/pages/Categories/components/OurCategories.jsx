@@ -22,12 +22,12 @@ const OurCategories = () => {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row flex-wrap lg:justify-between justify-center gap-7">
+      <div className="grid md:grid-rows-1 grid-rows-2 grid-flow-col gap-4">
         {happening?.map((happen) => {
           const { image, title, text, textSpan, alt, id } = happen;
 
           return (
-            <div key={id} className="min-w-[10rem]">
+            <div key={id} className="bg-white py-4 md:px-4 px-1 rounded">
               <div className="flex sm:max-w-[auto] max-w-[18rem] mx-auto gap-5">
                 <div>
                   <img
