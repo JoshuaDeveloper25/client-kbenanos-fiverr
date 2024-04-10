@@ -1,5 +1,6 @@
 import primaryHomeImage from "../../../../images/primary-home-image.png";
 import magnifyingGlassIcon from "../../../../images/magnifying-glass.png";
+import Carousel from "../../../components/Carousel";
 
 const Header = () => {
   return (
@@ -21,12 +22,13 @@ const Header = () => {
       </div>
 
       <div className="mt-4">
-        <img
-          loading="lazy"
-          decoding="async"
-          className="w-full"
-          src={primaryHomeImage}
-          alt="Primary Home Image"
+        <Carousel
+          imageOne={primaryHomeImage}
+          altOne={`Carousel Image`}
+          imageTwo={primaryHomeImage}
+          altTwo={`Carousel Image`}
+          imageThree={primaryHomeImage}
+          altThree={`Carousel Image`}
         />
       </div>
     </section>
