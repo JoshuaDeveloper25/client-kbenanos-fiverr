@@ -22,7 +22,7 @@ const PrintCategories = () => {
         </div>
       </div>
 
-      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
+      <div className="grid place-content-center lg:grid-rows-1 grid-rows-2 grid-flow-col gap-4">
         {printingCategories?.map((printCategory) => {
           const { image, title, alt, id } = printCategory;
 

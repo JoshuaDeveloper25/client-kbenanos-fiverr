@@ -24,7 +24,7 @@ const OffersPrinting = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-rows-2 lg:grid-rows-1 place-content-center grid-rows-3 grid-flow-col gap-4">
+      <div className="grid lg:grid-rows-1 place-content-center grid-rows-2 grid-flow-col gap-4">
         {offersPrinting?.map((offerPrinting) => {
           const { image, title, alt, discount, fcfa, id } = offerPrinting;
 

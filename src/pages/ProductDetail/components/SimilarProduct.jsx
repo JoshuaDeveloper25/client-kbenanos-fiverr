@@ -21,7 +21,7 @@ const SimilarProduct = () => {
         </div>
       </div>
 
-      <div className="flex row-gap-3 gap-3 flex-wrap min-[1125px]:justify-between justify-center">
+      <div className="grid lg:grid-rows-1 place-content-center grid-rows-2 grid-flow-col gap-4">
         {similiarProducts?.map((offerPrinting) => {
           const { image, title, alt, discount, fcfa, id } = offerPrinting;
 
